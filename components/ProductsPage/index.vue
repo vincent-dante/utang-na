@@ -56,11 +56,6 @@ const filterLoans = computed(() => {
   }
   return loansData;
 });
-
-useSeoMeta({
-  title: "UtangNa - Loans PH",
-  description: "Loans Philippines",
-});
 </script>
 
 <template>
