@@ -1,0 +1,12 @@
+html,
+body {
+  color: theme("colors.gunmetal.300");
+}
+
+.lavender-bg-gradient {
+  background: linear-gradient(
+    180deg,
+    #847ecc3b 0%,
+    rgba(242, 250, 244, 0) 50.08%
+  );
+}

@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27968280.9739e4d",
+    "@tailwindcss/forms": "^0.5.3",
+    "nuxt": "^3.3.1",
+    "nuxt-icon": "^0.3.3",
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.5"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.0.0",
+    "@nuxtjs/tailwindcss": "^6.6.0",
+    "@pinia/nuxt": "^0.4.7",
+    "pinia": "^2.0.33"
+  }
+}

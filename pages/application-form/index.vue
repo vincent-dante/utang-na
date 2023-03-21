@@ -1,0 +1,3 @@
+<template>
+  <application-form />
+</template>
