@@ -1,11 +1,9 @@
 <template>
   <div>
-    <div class="bg-lavander-400 py-20 text-white">
-      <div class="mx-auto max-w-6xl px-4">
-        <div class="text-left md:text-center">
-          <h2 class="pb-5 text-3xl font-bold">
-            Grow your finances with UtangNa
-          </h2>
+    <!--     <div class="py-20">
+      <div class="mx-auto max-w-6xl rounded-xl bg-lavander-400 p-10 text-white">
+        <div class="text-left">
+          <h2 class="pb-5 text-3xl font-bold">Grow your finances</h2>
           <p class="pb-10">
             Find the right loan for your financial needs today.
           </p>
@@ -16,21 +14,39 @@
           >
         </div>
       </div>
-    </div>
-    <div
-      class="mx-auto flex max-w-6xl flex-wrap items-center justify-between px-4 py-10 text-xs md:h-16 md:py-0"
-    >
-      <div class="w-full pb-10 md:w-1/2 md:pb-0">
-        <div
-          class="flex flex-col justify-start gap-10 text-lavander-400 md:flex-row"
-        >
-          <a href="">Privacy Policy</a>
-          <a href="">Terms and Conditions</a>
+    </div> -->
+
+    <div class="mx-auto bg-slate-100 px-4 pt-10 text-sm text-gray-500">
+      <div class="mx-auto flex max-w-6xl justify-between py-10">
+        <!--         <nuxt-img
+          src="/img/utangna.png"
+          format="webp"
+          class="h-auto w-40"
+          alt="utangna"
+        /> -->
+        <div>
+          <h3 class="pb-5 text-3xl font-bold">
+            Grow your finances with UtangNa
+          </h3>
+          <h4 class="pb-10 text-lg">
+            Find the right loan for your financial needs today.
+          </h4>
+          <nuxt-link
+            to="/products"
+            class="rounded-full bg-lavander-400 py-3 px-5 font-medium text-white transition duration-300 hover:bg-lavander-500"
+            >Apply now</nuxt-link
+          >
         </div>
       </div>
-      <div class="w-full md:w-1/2 md:text-right">
-        <div class="flex flex-col justify-end gap-10 md:flex-row">
-          <p>Copyright © {{ new Date().getFullYear() }} UtangNa</p>
+      <div
+        class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-5 border-t-[1px] border-gray-200 py-10 text-sm"
+      >
+        <div>© {{ new Date().getFullYear() }} UtangNa</div>
+        <div
+          class="flex w-full flex-col justify-end gap-5 pb-10 md:w-1/2 md:flex-row md:pb-0"
+        >
+          <a href="" class="hover:text-gray-600">Privacy Policy</a>
+          <a href="" class="hover:text-gray-600">Terms and Conditions</a>
         </div>
       </div>
     </div>

@@ -1,16 +1,16 @@
 <template>
   <header>
-    <nav class="navtop-bg">
-      <div class="mx-auto max-w-6xl px-4">
+    <nav class="py-5">
+      <div class="mx-auto max-w-6xl px-4 xl:px-0">
         <div class="flex items-center justify-between">
           <h1>
             <nuxt-link to="/" class="flex py-4"
-              ><span class="text-lg text-gray-600">
+              ><span class="text-gray-600">
                 <nuxt-img
                   src="/img/utangna.png"
                   format="webp"
-                  class="h-auto w-40"
-                  alt="person"
+                  class="h-auto w-52"
+                  alt="utangna"
                 /> </span
             ></nuxt-link>
           </h1>
@@ -26,9 +26,3 @@
     </nav>
   </header>
 </template>
-
-<style scoped>
-.navtop-bg {
-  background-color: #e4e2f3;
-}
-</style>

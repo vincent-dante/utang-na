@@ -1,10 +1,10 @@
 <script setup>
 useSeoMeta({
-  title: "UtangaNa - Home",
+  title: "UtangaNa - Application Review",
   description: "Get the best loans in the philippines",
 });
 </script>
 
 <template>
-  <landing-page />
+  <application-review />
 </template>

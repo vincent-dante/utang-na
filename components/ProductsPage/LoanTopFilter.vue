@@ -2,18 +2,36 @@
 import { ref, computed } from "vue";
 import { useSearchFiltersStore } from "@/store/searchFilters";
 import { storeToRefs } from "pinia";
-import lendersJson from "@/utils/lenders.json";
 
 const searchFiltersStore = useSearchFiltersStore();
 const { searchFilters } = storeToRefs(searchFiltersStore);
-const lenders = ref(lendersJson);
+
+const loanTypeList = ref([
+  { name: "All Loans" },
+  {
+    name: "Business Loans",
+  },
+  { name: "Auto Loans" },
+  {
+    name: "Emergency Loans",
+  },
+  {
+    name: "Land Loans",
+  },
+  {
+    name: "Mortage Loans",
+  },
+  {
+    name: "Personal Loans",
+  },
+  {
+    name: "Student Loans",
+  },
+  { name: "Title Loans" },
+]);
 
 const onLoanAmountInput = (e) => {
   searchFilters.value.loanAmount = formatInputToCurrencyPhp(e);
-};
-
-const onLendersChange = (e) => {
-  searchFilters.value.lender = e.target.value;
 };
 
 const loanAmountComputed = computed(() => {
@@ -22,14 +40,14 @@ const loanAmountComputed = computed(() => {
 </script>
 
 <template>
-  <div
-    class="grid w-full grid-cols-1 items-center rounded-xl border border-gray-300 bg-white px-5 py-3 md:grid-cols-4"
+  <section
+    class="grid w-full grid-cols-1 items-center gap-2 rounded-2xl border bg-white p-5 drop-shadow-md md:grid-cols-4"
   >
-    <div class="w-full p-2">
+    <div class="w-full">
       <p class="pb-2 text-xs text-gray-600">Loan Amount</p>
       <input
         type="text"
-        class="w-full rounded-full border border-gray-300 text-gray-600 focus:border-lavander-400 focus:ring-transparent"
+        class="w-full rounded-full border border-gray-300 text-gray-600 placeholder:text-gray-600 focus:border-lavander-400 focus:ring-transparent"
         placeholder="How much?"
         :value="loanAmountComputed"
         @input="onLoanAmountInput"
@@ -40,7 +58,7 @@ const loanAmountComputed = computed(() => {
         "
       />
     </div>
-    <div class="w-full p-2">
+    <div class="w-full">
       <p class="pb-2 text-xs text-gray-600">Terms</p>
       <div>
         <select
@@ -55,21 +73,21 @@ const loanAmountComputed = computed(() => {
         </select>
       </div>
     </div>
-    <div class="w-full p-2">
-      <p class="pb-2 text-xs text-gray-600">Lender</p>
+    <div class="w-full">
+      <p class="pb-2 text-xs text-gray-600">Loan Type</p>
       <div>
         <select
-          @click="onLendersChange"
+          v-model="searchFilters.loanType"
           class="w-full rounded-full border border-gray-300 text-gray-600 focus:border-lavander-400 focus:ring-transparent"
         >
-          <option value="" selected>Choose a Lender</option>
-          <option v-for="lender in lenders" :value="lender">
-            {{ lender }}
+          <option value="" selected>Choose a Loan Type</option>
+          <option v-for="loanType in loanTypeList" :value="loanType.name">
+            {{ loanType.name }}
           </option>
         </select>
       </div>
     </div>
-    <div class="w-full border-gray-500 p-2">
+    <div class="w-full border-gray-500">
       <p class="pb-2 text-xs text-gray-600">Interest</p>
       <div>
         <select
@@ -84,5 +102,5 @@ const loanAmountComputed = computed(() => {
         </select>
       </div>
     </div>
-  </div>
+  </section>
 </template>

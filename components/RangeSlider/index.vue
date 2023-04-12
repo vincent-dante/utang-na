@@ -50,7 +50,7 @@ const formatSlider = computed(() => {
       type="text"
       :min="sliderMin"
       :max="sliderMax"
-      class="w-full rounded-full border border-gray-400 py-3 px-5 text-4xl font-bold text-gray-600 focus:border-lavander-400 focus:ring-transparent"
+      class="w-full rounded-full border border-gray-400 py-3 px-5 text-5xl font-bold text-gray-600 focus:border-lavander-400 focus:ring-transparent"
       @input="onSliderInput"
       @paste="
         (e) => {
@@ -66,7 +66,7 @@ const formatSlider = computed(() => {
         :max="sliderMax"
         :step="sliderStepUpdate"
         :style="backgroundColorRange"
-        class="slider h-1 w-full cursor-pointer appearance-none rounded-full"
+        class="slider h-2 w-full cursor-pointer appearance-none rounded-full"
         @input="onChangeSlider"
         @click="onChangeSlider"
       />
@@ -78,8 +78,8 @@ const formatSlider = computed(() => {
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
   border: 2px solid #847ecc;
   background: #fff;
@@ -87,8 +87,8 @@ const formatSlider = computed(() => {
 }
 
 .slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border: 2px solid #847ecc;
   border-radius: 100%;
   background: #fff;

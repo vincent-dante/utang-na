@@ -5,7 +5,6 @@ export const useSearchFiltersStore = defineStore("searchFilterStore", () => {
     loanAmount: 0,
     loanType: "",
     loanTerms: 0,
-    lender: "",
     interest: 0,
     sort: "highest",
   });

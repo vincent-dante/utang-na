@@ -1,6 +1,18 @@
+:root {
+  --lavander: theme("colors.lavander.400");
+}
+
 html,
 body {
   color: theme("colors.gunmetal.300");
+}
+
+.dp__theme_light {
+  --dp-primary-color: var(--lavander) !important;
+  --dp-text-color: rgb(75 85 99) !important;
+  --dp-success-color: var(--lavander) !important;
+  --dp-border-color-hover: var(--lavander) !important;
+  --dp-primary-disabled-color: var(--lavander) !important;
 }
 
 .lavender-bg-gradient {
@@ -9,4 +21,35 @@ body {
     #847ecc3b 0%,
     rgba(242, 250, 244, 0) 50.08%
   );
+}
+
+.hidden-element-from-left {
+  opacity: 0;
+  transform: translateX(-5%);
+  transition: all 0.5s;
+}
+
+.show-element-from-left {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hidden-element-from-top {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: all 0.5s;
+}
+
+.show-element-from-top {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion) {
+  .hidden-element-from-left {
+    transition: none;
+  }
+  .hidden-element-from-top {
+    transition: none;
+  }
 }

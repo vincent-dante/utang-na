@@ -6,12 +6,24 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxtjs/google-fonts",
     "@pinia/nuxt",
+    "nuxt-swiper",
   ],
+  build: {
+    transpile: ["@vuepic/vue-datepicker"],
+  },
   css: ["@/assets/css/reset.css", "@/assets/css/main.css"],
 
   googleFonts: {
     families: {
       Inter: [400, 700],
+    },
+  },
+
+  runtimeConfig: {
+    public: {
+      apiPhProvinces: process.env.API_PH_PROVINCES,
+      apiPhCity: process.env.API_PH_CITY,
+      apiBarangay: process.env.API_PH_BARANGAY,
     },
   },
 });

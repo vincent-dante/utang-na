@@ -1,10 +1,25 @@
+<script setup>
+import { onMounted } from "vue";
+
+onMounted(() => {
+  const elementsToTop = document.querySelectorAll(".hidden-element-from-top");
+  animateElementsOnView(elementsToTop, "show-element-from-top");
+});
+</script>
+
 <template>
-  <div class="mx-auto w-full max-w-6xl px-4 py-32">
-    <div class="text-center font-bold md:pb-20">
-      <h2 class="pb-5 text-2xl text-lavander-400">
-        Fast and easy application!
+  <section class="mx-auto w-full max-w-6xl px-4 py-20 md:py-40">
+    <article>
+      <h2
+        class="hidden-element-from-left pb-5 text-center text-xl font-bold text-lavander-400"
+      >
+        HOW IT WORKS
       </h2>
-    </div>
+      <h3 class="hidden-element-from-left pb-20 text-center text-4xl font-bold">
+        Easy and fast application!
+      </h3>
+    </article>
+
     <div class="relative mx-auto flex w-full md:flex-col">
       <div
         class="grid w-1/6 grid-rows-3 content-end items-end py-10 md:w-full md:grid-cols-3 md:grid-rows-1 md:justify-center"
@@ -43,11 +58,13 @@
       <div
         class="grid w-5/6 grid-cols-1 content-end md:order-first md:w-full md:grid-cols-3"
       >
-        <div class="flex flex-col pt-10 md:w-full md:justify-center md:pt-0">
+        <div
+          class="hidden-element-from-top loan-step flex flex-col pt-10 md:w-full md:justify-center md:pt-0"
+        >
           <nuxt-img
             src="/img/step1.svg"
             format="webp"
-            class="mx-auto w-1/2"
+            class="mx-auto w-2/3"
             width="auto"
             height="auto"
             alt="step 1"
@@ -58,12 +75,12 @@
           </p>
         </div>
         <div
-          class="flex flex-col pt-10 md:w-full md:justify-items-center md:pt-0"
+          class="hidden-element-from-top loan-step flex flex-col pt-10 md:w-full md:justify-center md:pt-0"
         >
           <nuxt-img
             src="/img/step2.svg"
             format="webp"
-            class="mx-auto w-1/2"
+            class="mx-auto w-4/5"
             width="auto"
             height="auto"
             alt="step 2"
@@ -74,7 +91,7 @@
           </p>
         </div>
         <div
-          class="flex flex-col pt-10 md:w-full md:justify-items-center md:pt-0"
+          class="hidden-element-from-top loan-step flex flex-col pt-10 md:w-full md:justify-center md:pt-0"
         >
           <nuxt-img
             src="/img/step3.svg"
@@ -105,5 +122,14 @@
         </p>
       </div>
     </div>
-  </div>
+  </section>
 </template>
+
+<style>
+.loan-step:nth-child(2) {
+  transition-delay: 200ms;
+}
+.loan-step:nth-child(3) {
+  transition-delay: 300ms;
+}
+</style>
