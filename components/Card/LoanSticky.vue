@@ -49,7 +49,15 @@ const onClickApply = () => {
 const monthlyAmortization = computed(() => {
   const computation =
     props.loanAmount.replace(/[^0-9]+/g, "") / props.activeLoanTerm;
+
   if (isNaN(computation)) return 0;
+
+  if (computation >= 1000000) {
+    const million =
+      "₱" + (Math.abs(Number(computation)) / 1.0e6).toFixed(2) + " Million";
+    return million;
+  }
+
   return formatToCurrencyPhp(computation, true);
 });
 

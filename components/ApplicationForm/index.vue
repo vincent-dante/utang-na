@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, onMounted } from "vue";
+import { shallowRef, watch, onMounted } from "vue";
 import PersonalInformation from "@/components/ApplicationForm/PersonalInformation.vue";
 import AddressContact from "@/components/ApplicationForm/AddressContact.vue";
 import WorkInformation from "@/components/ApplicationForm/WorkInformation.vue";
@@ -33,7 +33,7 @@ if (
   router.push({ path: "/products" });
 }
 
-const comp = ref();
+const comp = shallowRef();
 
 const updateActiveComp = (name) => {
   if (name === "PersonalInformation") {

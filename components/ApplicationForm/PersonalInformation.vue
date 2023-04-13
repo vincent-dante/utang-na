@@ -86,16 +86,28 @@ onMounted(() => {
         name="firstName"
         label="First name"
         placeholder="First name"
+        class="order-1"
       />
-      <base-input name="lastName" label="Last name" placeholder="Last name" />
+      <base-input
+        name="lastName"
+        label="Last name"
+        placeholder="Last name"
+        class="order-2"
+      />
       <base-input
         name="middleName"
         label="Middle name"
         placeholder="Middle name"
         :disabled="isCheckedNoMiddleName"
+        class="order-3"
       />
-      <base-input name="suffix" label="Suffix name" placeholder="Suffix name" />
-      <div class="md:col-span-2">
+      <base-input
+        name="suffix"
+        label="Suffix name"
+        placeholder="Suffix name"
+        class="order-5 md:order-4"
+      />
+      <div class="order-4 md:order-5 md:col-span-2">
         <Field
           v-slot="{ field }"
           name="noMiddleName"
@@ -118,7 +130,7 @@ onMounted(() => {
           </label>
         </Field>
       </div>
-      <div class="flex flex-wrap items-center gap-1">
+      <div class="order-5 flex flex-wrap items-center gap-1">
         <Field v-slot="{ field }" name="birthDate">
           <label class="w-full text-xs" for="dp-input-birthDate"
             >Date of Birth</label
@@ -155,6 +167,7 @@ onMounted(() => {
         placeholder="Place of birth"
         options-name="name"
         options-value="prov_code"
+        class="order-6"
       />
       <base-select
         name="gender"
@@ -162,6 +175,7 @@ onMounted(() => {
         :options="genderOption"
         placeholder="Gender"
         :error-message="errors.gender"
+        class="order-7"
       />
       <base-select
         name="civilStatus"
@@ -169,6 +183,7 @@ onMounted(() => {
         :options="civilStatusOption"
         placeholder="Civil Status"
         :error-message="errors.civilStatus"
+        class="order-8"
       />
     </div>
     <div class="flex items-center justify-end pt-10">

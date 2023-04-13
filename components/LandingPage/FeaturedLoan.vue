@@ -33,33 +33,3 @@ const { loans } = storeToRefs(loanStore);
     </section>
   </div>
 </template>
-
-<style scoped>
-h3 {
-  transition-delay: 300ms;
-}
-.card:nth-child(1) {
-  transition-delay: 100ms;
-}
-.card:nth-child(2) {
-  transition-delay: 200ms;
-}
-.card:nth-child(3) {
-  transition-delay: 300ms;
-}
-.card:nth-child(4) {
-  transition-delay: 400ms;
-}
-.card:nth-child(5) {
-  transition-delay: 100ms;
-}
-.card:nth-child(6) {
-  transition-delay: 200ms;
-}
-.card:nth-child(7) {
-  transition-delay: 300ms;
-}
-.card:nth-child(8) {
-  transition-delay: 400ms;
-}
-</style>

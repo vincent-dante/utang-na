@@ -1,6 +1,5 @@
 <script setup>
 import { computed, ref } from "vue";
-import { formatToCurrencyPhp } from "@/utils/format";
 
 const props = defineProps({
   slider: { type: [String, Number], default: 5000, required: true },

@@ -1,5 +1,4 @@
 <script setup>
-import { formatToCurrencyPhp } from "@/utils/format";
 import { computed } from "vue";
 
 const props = defineProps({

@@ -1,6 +1,5 @@
 <script setup>
 import { ref, watch, computed, onMounted } from "vue";
-import { formatToCurrencyPhp } from "@/utils/format";
 import { useLoansStore } from "@/store/loans";
 import { useModalsStore } from "@/store/modals";
 import { storeToRefs } from "pinia";
