@@ -21,32 +21,7 @@ const { loans } = storeToRefs(loanStore);
           Loan that fits in your needs
         </h3>
       </article>
-      <div class="overflow-hidden py-2">
-        <div class="md:hidden">
-          <Swiper :slides-per-view="1.2" :space-between="5">
-            <SwiperSlide
-              v-for="(loan, index) in loans"
-              :key="index"
-              class="items-stretch px-1"
-            >
-              <card-loan-product
-                :product="loan"
-                class="h-[450px]"
-              ></card-loan-product>
-            </SwiperSlide>
-          </Swiper>
-        </div>
-        <div
-          class="hidden w-full grid-cols-2 gap-5 md:grid md:grid-cols-3 xl:grid-cols-4"
-        >
-          <card-loan-product
-            v-for="(loan, index) in loans.slice(0, 8)"
-            :key="index"
-            :product="loan"
-            class="hidden-element-from-top card"
-          ></card-loan-product>
-        </div>
-      </div>
+      <card-loan-slide :loans="loans.slice(0, 8)" />
       <div class="pt-20 text-center">
         <nuxt-link
           to="/products"

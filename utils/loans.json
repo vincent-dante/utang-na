@@ -143,13 +143,13 @@
     }
   },
   {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
+    "id": "9e8a14c0-ec52-46a5-aa9f-036ba76f0465",
     "lender": "Investree Philippines",
     "loan_type": "Student Loans",
     "lender_logo": "Investree_Hi-res_logo-01_1.png",
     "min_amt": 500000,
     "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
+    "loan_terms": [3, 6, 12],
     "interest": 3,
     "approval_day": "7",
     "processing_fee": 0,
@@ -188,246 +188,103 @@
     }
   },
   {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
+    "id": "1754d63e-8379-490c-91a1-fcdcb55fa26c",
     "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "0273951c-beaa-41d1-a538-0b8d4712369a",
-    "lender": "Bangko Kabayan",
     "loan_type": "Personal Loans",
-    "lender_logo": "BK_Logo.jpg",
-    "min_amt": 50000,
-    "max_amt": 1500000,
-    "loan_terms": [9, 12],
-    "interest": 3,
-    "approval_day": "5",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Applicant must be at least 21 years of age",
-        "Business must be within Cavite, Laguna, Batangas, and Quezon provinces",
-        "Business must be operational for at least 3 years",
-        "Business must have at least 1 employee"
-      ],
-      "other_requirements": []
-    }
-  },
-  {
-    "id": "461fe0e6-ec41-49d4-9e65-7ccf84acfaf2",
-    "lender": "SeedIn Technology Inc.",
-    "loan_type": "Business Loans",
-    "lender_logo": "Seedin_Logo_FullColor_2.png",
+    "lender_logo": "JuanHand-Logo-2022.png",
     "min_amt": 500000,
-    "max_amt": 10000000,
+    "max_amt": 15000000,
     "loan_terms": [3, 6, 9],
     "interest": 3,
-    "approval_day": "5",
+    "approval_day": "7",
     "processing_fee": 0,
     "terms": {
       "requirements": [
-        "DTI Certificate or SEC Certificate with latest General Information Sheet (GIS)",
-        "Audited Financial Statements (AFS) with Income Tax Returns (ITR) for the latest 1-3 years stamped received by BIR",
-        "Interim Financial Statements 2019 and/or management report (balance sheet and income statement)",
-        "Latest Accounts Receivable Ageing Report",
-        "Latest 6 months statement of account for all corporate bank account (online bank statements or passbooks 'must include account name and number'",
-        "Valid ID of company President w/ specimen signature/s",
-        "Outstanding Loans and Statement of Collaterals",
-        "SALN Details",
-        "Business Continuity Plan (BCP)"
+        "Must be 18 to 60 years of age",
+        "Must be a Filipino citizen",
+        "With steady source of income proving paying capacity"
       ],
-      "other_requirements": []
-    }
-  },
-  {
-    "id": "a36d3719-53fc-483a-aa3a-f11adec46dc3",
-    "lender": "Zenith Capital Credit Group",
-    "loan_type": "Business Loans",
-    "lender_logo": "ZC-logo.png",
-    "min_amt": 300000,
-    "max_amt": 20000000,
-    "loan_terms": [6, 9],
-    "interest": 3,
-    "approval_day": "5",
-    "processing_fee": 5,
-    "terms": {
-      "requirements": [],
       "other_requirements": [
         {
-          "title": "SOLE PROPRIETORSHIP",
+          "title": "Investree will reach out to you for the next steps after submission."
+        },
+        {
+          "title": "Prepare the following:",
           "documents": [
-            "Latest original 3 months bank statements and bank certification",
-            "Copy of Mayor’s and Barangay Business permit",
-            "Copy of DTI Permit",
-            "Photocopy of at least 2 Government-issued IDs",
-            "1”x1” ID Picture",
-            "Pictures of the business and/or inventory",
-            "Proof of billing for your business and residence (i.e. electricity / water / cable)",
-            "Hand-drawn sketch of your business and residence location"
+            "DTI Certificate of Registration",
+            "BIR Certificate (Form 2303)",
+            "Mayor’s Permit",
+            "Latest Audited Financial Statements",
+            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
+            "Bank statements of the last 6 months (operational bank account)",
+            "Bank statements of the last 6 months (payment receiving bank account)"
           ]
         },
         {
-          "title": "Additional documents for PARTNERSHIP",
-          "documents": ["Articles of Partnership"]
-        },
-        {
-          "title": "Additional documents for CORPORATION",
+          "title": "Additional Requirement if CORPORATION (for shareholders):",
           "documents": [
-            "SEC registration with Article of Incorporation & By Laws",
-            "General Information Sheet",
-            "Secretary’s Certificate with Board Resolution"
+            "SEC Certification",
+            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
+            "Primary ID of each shareholder",
+            "TIN Document (Showing TIN) of each shareholder"
           ]
-        },
-        {
-          "title": "(Authority to obtain loan in his/her personal capacity)",
-          "documents": ["Income Tax Return with Audited Financial Statements"]
         }
       ]
     }
   },
   {
-    "id": "972c88e4-374a-42f1-a6bb-18f1c0dedf43",
-    "lender": "Esquire Financing, Inc.",
-    "loan_type": "Business Loans",
-    "lender_logo": "EFI-logo.png",
-    "min_amt": 100000,
+    "id": "0d786ae3-e0b8-4dc1-87f3-640ae32557a4",
+    "lender": "Investree Philippines",
+    "loan_type": "Emergency Loans",
+    "lender_logo": "JuanHand-Logo-2022.png",
+    "min_amt": 30000,
+    "max_amt": 100000,
+    "loan_terms": [6, 12],
+    "interest": 3,
+    "approval_day": "7",
+    "processing_fee": 0,
+    "terms": {
+      "requirements": [
+        "Must be 18 to 60 years of age",
+        "Must be a Filipino citizen",
+        "With steady source of income proving paying capacity"
+      ],
+      "other_requirements": [
+        {
+          "title": "Investree will reach out to you for the next steps after submission."
+        },
+        {
+          "title": "Prepare the following:",
+          "documents": [
+            "DTI Certificate of Registration",
+            "BIR Certificate (Form 2303)",
+            "Mayor’s Permit",
+            "Latest Audited Financial Statements",
+            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
+            "Bank statements of the last 6 months (operational bank account)",
+            "Bank statements of the last 6 months (payment receiving bank account)"
+          ]
+        },
+        {
+          "title": "Additional Requirement if CORPORATION (for shareholders):",
+          "documents": [
+            "SEC Certification",
+            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
+            "Primary ID of each shareholder",
+            "TIN Document (Showing TIN) of each shareholder"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "0464fe60-01fb-44b6-b902-6b7ce6ccded9",
+    "lender": "Investree Philippines",
+    "loan_type": "Mortage Loans",
+    "lender_logo": "JuanHand-Logo-2022.png",
+    "min_amt": 2000000,
     "max_amt": 10000000,
-    "loan_terms": [3, 6, 12],
-    "interest": 3.5,
-    "approval_day": "4",
-    "processing_fee": 6,
-    "terms": {
-      "requirements": [
-        "Business must be registered to DTI or SEC",
-        "Business is operational for at least 1 year",
-        "Has an active checking account at any bank for at least 6 months"
-      ],
-      "other_requirements": []
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "RFSC",
-    "loan_type": "Business Loans",
-    "lender_logo": "RFSC_Logo_w_RFC_v2_compressed.png",
-    "min_amt": 10000,
-    "max_amt": 50000,
-    "loan_terms": [3, 6, 9, 12],
-    "interest": 4,
-    "approval_day": "1",
-    "processing_fee": 6,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Kindly prepare the following documents:",
-          "documents": [
-            "Valid ID of Applicant (primary)",
-            "Company ID of Applicant (if employed)",
-            "Proof of Billing (with address)",
-            "Proof of Income"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
+    "loan_terms": [6, 12],
     "interest": 3,
     "approval_day": "7",
     "processing_fee": 0,
@@ -466,779 +323,13 @@
     }
   },
   {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
+    "id": "addfc4eb-7c09-4ce1-adbd-243e9769f97a",
     "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
+    "loan_type": "Auto Loans",
     "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "0273951c-beaa-41d1-a538-0b8d4712369a",
-    "lender": "Bangko Kabayan",
-    "loan_type": "Personal Loans",
-    "lender_logo": "BK_Logo.jpg",
     "min_amt": 50000,
-    "max_amt": 1500000,
-    "loan_terms": [9, 12],
-    "interest": 3,
-    "approval_day": "5",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Applicant must be at least 21 years of age",
-        "Business must be within Cavite, Laguna, Batangas, and Quezon provinces",
-        "Business must be operational for at least 3 years",
-        "Business must have at least 1 employee"
-      ],
-      "other_requirements": []
-    }
-  },
-  {
-    "id": "461fe0e6-ec41-49d4-9e65-7ccf84acfaf2",
-    "lender": "SeedIn Technology Inc.",
-    "loan_type": "Business Loans",
-    "lender_logo": "Seedin_Logo_FullColor_2.png",
-    "min_amt": 500000,
-    "max_amt": 10000000,
-    "loan_terms": [3, 6, 9],
-    "interest": 3,
-    "approval_day": "5",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "DTI Certificate or SEC Certificate with latest General Information Sheet (GIS)",
-        "Audited Financial Statements (AFS) with Income Tax Returns (ITR) for the latest 1-3 years stamped received by BIR",
-        "Interim Financial Statements 2019 and/or management report (balance sheet and income statement)",
-        "Latest Accounts Receivable Ageing Report",
-        "Latest 6 months statement of account for all corporate bank account (online bank statements or passbooks 'must include account name and number'",
-        "Valid ID of company President w/ specimen signature/s",
-        "Outstanding Loans and Statement of Collaterals",
-        "SALN Details",
-        "Business Continuity Plan (BCP)"
-      ],
-      "other_requirements": []
-    }
-  },
-  {
-    "id": "a36d3719-53fc-483a-aa3a-f11adec46dc3",
-    "lender": "Zenith Capital Credit Group",
-    "loan_type": "Business Loans",
-    "lender_logo": "ZC-logo.png",
-    "min_amt": 300000,
-    "max_amt": 20000000,
-    "loan_terms": [6, 9],
-    "interest": 3,
-    "approval_day": "5",
-    "processing_fee": 5,
-    "terms": {
-      "requirements": [],
-      "other_requirements": [
-        {
-          "title": "SOLE PROPRIETORSHIP",
-          "documents": [
-            "Latest original 3 months bank statements and bank certification",
-            "Copy of Mayor’s and Barangay Business permit",
-            "Copy of DTI Permit",
-            "Photocopy of at least 2 Government-issued IDs",
-            "1”x1” ID Picture",
-            "Pictures of the business and/or inventory",
-            "Proof of billing for your business and residence (i.e. electricity / water / cable)",
-            "Hand-drawn sketch of your business and residence location"
-          ]
-        },
-        {
-          "title": "Additional documents for PARTNERSHIP",
-          "documents": ["Articles of Partnership"]
-        },
-        {
-          "title": "Additional documents for CORPORATION",
-          "documents": [
-            "SEC registration with Article of Incorporation & By Laws",
-            "General Information Sheet",
-            "Secretary’s Certificate with Board Resolution"
-          ]
-        },
-        {
-          "title": "(Authority to obtain loan in his/her personal capacity)",
-          "documents": ["Income Tax Return with Audited Financial Statements"]
-        }
-      ]
-    }
-  },
-  {
-    "id": "972c88e4-374a-42f1-a6bb-18f1c0dedf43",
-    "lender": "Esquire Financing, Inc.",
-    "loan_type": "Business Loans",
-    "lender_logo": "EFI-logo.png",
-    "min_amt": 100000,
-    "max_amt": 10000000,
-    "loan_terms": [3, 6, 12],
-    "interest": 3.5,
-    "approval_day": "4",
-    "processing_fee": 6,
-    "terms": {
-      "requirements": [
-        "Business must be registered to DTI or SEC",
-        "Business is operational for at least 1 year",
-        "Has an active checking account at any bank for at least 6 months"
-      ],
-      "other_requirements": []
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "RFSC",
-    "loan_type": "Business Loans",
-    "lender_logo": "RFSC_Logo_w_RFC_v2_compressed.png",
-    "min_amt": 10000,
-    "max_amt": 50000,
+    "max_amt": 100000,
     "loan_terms": [3, 6, 9, 12],
-    "interest": 4,
-    "approval_day": "1",
-    "processing_fee": 6,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Kindly prepare the following documents:",
-          "documents": [
-            "Valid ID of Applicant (primary)",
-            "Company ID of Applicant (if employed)",
-            "Proof of Billing (with address)",
-            "Proof of Income"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "0273951c-beaa-41d1-a538-0b8d4712369a",
-    "lender": "Bangko Kabayan",
-    "loan_type": "Personal Loans",
-    "lender_logo": "BK_Logo.jpg",
-    "min_amt": 50000,
-    "max_amt": 1500000,
-    "loan_terms": [9, 12],
-    "interest": 3,
-    "approval_day": "5",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Applicant must be at least 21 years of age",
-        "Business must be within Cavite, Laguna, Batangas, and Quezon provinces",
-        "Business must be operational for at least 3 years",
-        "Business must have at least 1 employee"
-      ],
-      "other_requirements": []
-    }
-  },
-  {
-    "id": "461fe0e6-ec41-49d4-9e65-7ccf84acfaf2",
-    "lender": "SeedIn Technology Inc.",
-    "loan_type": "Business Loans",
-    "lender_logo": "Seedin_Logo_FullColor_2.png",
-    "min_amt": 500000,
-    "max_amt": 10000000,
-    "loan_terms": [3, 6, 9],
-    "interest": 3,
-    "approval_day": "5",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "DTI Certificate or SEC Certificate with latest General Information Sheet (GIS)",
-        "Audited Financial Statements (AFS) with Income Tax Returns (ITR) for the latest 1-3 years stamped received by BIR",
-        "Interim Financial Statements 2019 and/or management report (balance sheet and income statement)",
-        "Latest Accounts Receivable Ageing Report",
-        "Latest 6 months statement of account for all corporate bank account (online bank statements or passbooks 'must include account name and number'",
-        "Valid ID of company President w/ specimen signature/s",
-        "Outstanding Loans and Statement of Collaterals",
-        "SALN Details",
-        "Business Continuity Plan (BCP)"
-      ],
-      "other_requirements": []
-    }
-  },
-  {
-    "id": "a36d3719-53fc-483a-aa3a-f11adec46dc3",
-    "lender": "Zenith Capital Credit Group",
-    "loan_type": "Business Loans",
-    "lender_logo": "ZC-logo.png",
-    "min_amt": 300000,
-    "max_amt": 20000000,
-    "loan_terms": [6, 9],
-    "interest": 3,
-    "approval_day": "5",
-    "processing_fee": 5,
-    "terms": {
-      "requirements": [],
-      "other_requirements": [
-        {
-          "title": "SOLE PROPRIETORSHIP",
-          "documents": [
-            "Latest original 3 months bank statements and bank certification",
-            "Copy of Mayor’s and Barangay Business permit",
-            "Copy of DTI Permit",
-            "Photocopy of at least 2 Government-issued IDs",
-            "1”x1” ID Picture",
-            "Pictures of the business and/or inventory",
-            "Proof of billing for your business and residence (i.e. electricity / water / cable)",
-            "Hand-drawn sketch of your business and residence location"
-          ]
-        },
-        {
-          "title": "Additional documents for PARTNERSHIP",
-          "documents": ["Articles of Partnership"]
-        },
-        {
-          "title": "Additional documents for CORPORATION",
-          "documents": [
-            "SEC registration with Article of Incorporation & By Laws",
-            "General Information Sheet",
-            "Secretary’s Certificate with Board Resolution"
-          ]
-        },
-        {
-          "title": "(Authority to obtain loan in his/her personal capacity)",
-          "documents": ["Income Tax Return with Audited Financial Statements"]
-        }
-      ]
-    }
-  },
-  {
-    "id": "972c88e4-374a-42f1-a6bb-18f1c0dedf43",
-    "lender": "Esquire Financing, Inc.",
-    "loan_type": "Business Loans",
-    "lender_logo": "EFI-logo.png",
-    "min_amt": 100000,
-    "max_amt": 10000000,
-    "loan_terms": [3, 6, 12],
-    "interest": 3.5,
-    "approval_day": "4",
-    "processing_fee": 6,
-    "terms": {
-      "requirements": [
-        "Business must be registered to DTI or SEC",
-        "Business is operational for at least 1 year",
-        "Has an active checking account at any bank for at least 6 months"
-      ],
-      "other_requirements": []
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "RFSC",
-    "loan_type": "Business Loans",
-    "lender_logo": "RFSC_Logo_w_RFC_v2_compressed.png",
-    "min_amt": 10000,
-    "max_amt": 50000,
-    "loan_terms": [3, 6, 9, 12],
-    "interest": 4,
-    "approval_day": "1",
-    "processing_fee": 6,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Kindly prepare the following documents:",
-          "documents": [
-            "Valid ID of Applicant (primary)",
-            "Company ID of Applicant (if employed)",
-            "Proof of Billing (with address)",
-            "Proof of Income"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "RFSC",
-    "loan_type": "Business Loans",
-    "lender_logo": "RFSC_Logo_w_RFC_v2_compressed.png",
-    "min_amt": 10000,
-    "max_amt": 50000,
-    "loan_terms": [3, 6, 9, 12],
-    "interest": 4,
-    "approval_day": "1",
-    "processing_fee": 6,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Kindly prepare the following documents:",
-          "documents": [
-            "Valid ID of Applicant (primary)",
-            "Company ID of Applicant (if employed)",
-            "Proof of Billing (with address)",
-            "Proof of Income"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
-    "interest": 3,
-    "approval_day": "7",
-    "processing_fee": 0,
-    "terms": {
-      "requirements": [
-        "Must be 18 to 60 years of age",
-        "Must be a Filipino citizen",
-        "With steady source of income proving paying capacity"
-      ],
-      "other_requirements": [
-        {
-          "title": "Investree will reach out to you for the next steps after submission."
-        },
-        {
-          "title": "Prepare the following:",
-          "documents": [
-            "DTI Certificate of Registration",
-            "BIR Certificate (Form 2303)",
-            "Mayor’s Permit",
-            "Latest Audited Financial Statements",
-            "Last 3 to 5 completed and paid transactions with your client indicated in the submitted PO and/o invoice",
-            "Bank statements of the last 6 months (operational bank account)",
-            "Bank statements of the last 6 months (payment receiving bank account)"
-          ]
-        },
-        {
-          "title": "Additional Requirement if CORPORATION (for shareholders):",
-          "documents": [
-            "SEC Certification",
-            "Filled up Shareholder Information Sheet (email salesteam@investree.ph)",
-            "Primary ID of each shareholder",
-            "TIN Document (Showing TIN) of each shareholder"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "id": "2ae1f18c-afaf-431d-93e4-ca076563a44e",
-    "lender": "Investree Philippines",
-    "loan_type": "Student Loans",
-    "lender_logo": "Investree_Hi-res_logo-01_1.png",
-    "min_amt": 500000,
-    "max_amt": 15000000,
-    "loan_terms": [2, 3, 4, 5, 6],
     "interest": 3,
     "approval_day": "7",
     "processing_fee": 0,

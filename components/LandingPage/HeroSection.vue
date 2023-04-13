@@ -29,7 +29,7 @@ const onSubmit = () => {
 
 <template>
   <div class="mx-auto flex max-w-6xl items-center px-4 py-20 xl:px-0">
-    <section class="w-full overflow-hidden drop-shadow-xl lg:w-1/2">
+    <section class="w-full overflow-hidden lg:w-1/2">
       <h1 class="hidden-element-from-left pb-5 text-7xl font-bold">
         <span class="text-lavander-400">Loans</span> for your financial needs
       </h1>
@@ -38,7 +38,7 @@ const onSubmit = () => {
         network of trusted partner lenders in the Philippines.
       </h2>
       <div
-        class="hidden-element-from-left search-form flex w-full flex-wrap items-center rounded-2xl border bg-white p-5"
+        class="hidden-element-from-left search-form flex w-full flex-wrap items-center rounded-2xl border bg-white p-5 drop-shadow-xl"
       >
         <div class="w-full p-2 md:w-1/2">
           <p class="pb-2 text-sm">Loan Amount</p>

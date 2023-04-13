@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, onMounted } from "vue";
+import { ref, watch, computed, onMounted } from "vue";
 import { formatToCurrencyPhp } from "@/utils/format";
 import { useLoansStore } from "@/store/loans";
 import { useModalsStore } from "@/store/modals";
@@ -45,6 +45,12 @@ const goToApplicationForm = () => {
   router.push("/application-form");
 };
 
+const otherLoans = computed(() => {
+  return loans.value
+    .filter((item) => item.id !== loanDetails.value.id)
+    .slice(0, 4);
+});
+
 watch(
   () => slider.value.slider,
   (newValue, oldValue) => {
@@ -67,6 +73,9 @@ onMounted(() => {
   };
 
   updateLoanDetails(details);
+
+  const elementsToTop = document.querySelectorAll(".hidden-element-from-top");
+  animateElementsOnView(elementsToTop, "show-element-from-top");
 });
 </script>
 
@@ -148,6 +157,13 @@ onMounted(() => {
         :processing-fee="loanDetails.processing_fee?.toString()"
         @apply="goToApplicationForm"
       />
+    </div>
+
+    <div class="mx-auto max-w-6xl py-10 px-4">
+      <h2 class="pb-5 text-2xl font-bold">Other loan products you may like</h2>
+      <div class="flex gap-5 pb-5">
+        <card-loan-slide :loans="otherLoans" />
+      </div>
     </div>
 
     <!-- Mobile Product Card -->
