@@ -16,6 +16,7 @@ https://utangna.vercel.app/
 
 - Search & Filters for loans.
 - UI - Landing Page, Loans Page, Application Form.
+- Form validation.
 - Mobile Responsive.
 
 ## Build Setup
